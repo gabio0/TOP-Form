@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#131516;
+    display:flex;
+    height:100vh;
+}
+
+.side{
+    flex:0 1 15vw;
+}
+
+@font-face {
+    font-family: norsebold;
+    src: url(Norse-Bold.otf);
+}
+
+img{
+    object-fit: cover;
+    height:100%;
+    width:100%;
+}
+
+.image{
+    flex: 1 0 250px;
+    position:relative;
+}
+
+.container{
+    flex:1 0 600px;
+}
+
+.banner{
+    position:absolute;
+    top:20vh;
+    width:100%;
+    background:rgb(0,0,0,.6);
+    color:#F0F0F0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin{
+    width:20%;
+    display:inline-block;
+    margin:10px;
+}
+
+h1{
+    display:inline-block;
+    font-size: 6vw;
+    margin:0;
+    padding:0;
+    font-family: norsebold;
+}
+
+p{
+    position:absolute;
+    bottom:20px;
+    right:20px;
+    color:#F0F0F0;
+    margin:0;
+}
+a{
+    color:white;
+}
+
+.top,.middle,.bottom{
+    height:35%;
+    width:100%;
+    background:#F0F0F0;
+}
+.top>p,.middle>p{
+    position:relative;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size:26px;
+    line-height:32px;
+    color:black;
+    padding:20% 10%;
+}
+
+.middle>p{
+    padding:40px 0 0 10%;
+}
+
+.middle{
+    position:relative;
+    height:30%;
+    background:white;
+    box-shadow: 0 3px 8px #B0B0B0;
+    z-index:10;
+}
+
+.bottom>p{
+    position:relative;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    top:20%;
+    left:10%;
+}
+
+button{
+    padding:15px 50px;
+    position:relative;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:#F0F0F0;
+    top:15%;
+    left:10%;
+    background:#596D48;
+    border-radius: 10px;
+}
+
+.bottom>p>a{
+    color:#596D48;
+    font-weight:bold;
+}
+
+label,input{
+    display:inline-block;
+    width:35%;
+    margin-left:10%;
+    font-size: 14px;;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    line-height: 30px;
+    margin-bottom:20px;
+    border:solid 2px #C0C0C0;
+    border-radius: 3px;
+}

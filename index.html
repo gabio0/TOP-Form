@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="side"></div>
+    <div class="image">
+        <img src="./halie-west.jpg">
+        <div class="banner">
+            <img class="odin" src="odin-lined.png">
+            <h1>ODIN</h1>
+        </div>
+        <p>Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on Unsplash</p>
+    </div>
+    <div class="container">
+        <div class="top"><p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.</p></div>
+        <div class="middle">
+            <p>Let's do this!</p>
+            <form action="./text.txt" method="post" id="my-form">
+                <label for="fname">FIRST NAME</label>
+                <label for="lname">LAST NAME</label>
+                <input type="text" id="fname" name="firstname" placeholder="John...">
+                <input type="text" id="lname" name="lastname" placeholder="Doe...">
+
+                <label for="user_email">EMAIL</label>
+                <label for="phone">PHONE NUMBER</label>
+                <input type="email" id="user_email" name="email" placeholder="john.doe@example.com...">
+                <input type="tel" id="phone" name="" placeholder="(123)456-7890">
+                
+
+                <label for="password">PASSWORD</label>
+                <label for="cpassword">CONFIRM PASSWORD</label>
+                <input type="password" id="password" name="password" placeholder="********">
+                <input type="password" id="confirm_password" name="cpassword" placeholder="********">
+            </form>
+        </div>
+        <div class="bottom">
+            <button type="submit" form="my-form">Create Account</button>
+            <p>Already have an account? <a>Log in</a></p>
+        </div>
+    </div>
+    <div class="side"></div>
+    <script src="script.js"></script>
+</body>
+</html>
